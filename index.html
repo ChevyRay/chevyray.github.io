@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Redirecting to gopher...</title>
-<meta http-equiv="refresh" content="0; URL=gopher://test">
-<link rel="canonical" href="gopher://test">
+<script>
+window.location.replace("gopher://test" + window.location.search);
+</script>
